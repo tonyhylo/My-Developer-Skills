@@ -4,11 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="main.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script defer src="main.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>My Dev Skills Lab</title>
 </head>
-<body>
-    hello world
+<body class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="title" colspan="2" id="topTitle">MY DEVELOPER SKILLS</th>
+            </tr> 
+        </thead>
+        <tbody>
+            <tr class="firstRows">
+                <td style="width:  1%"><button class="btn btn-xs btn-danger">X</button></td>
+                <td>Cascading Style Sheets (CSS)</td>
+            </tr>
+            <tr class="firstRows">
+                <td><button class="btn btn-xs btn-danger">X</button></td>
+                <td>Hypertext Markup Language (HTML)</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="bottom">
+        <input type="text" id="addSkillBox" name="fname">
+        <button id="addSkillBtn">ADD SKILL</button>
+    </div>
 </body>
 </html>

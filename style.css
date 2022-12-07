@@ -1,3 +1,39 @@
-* {
-    background-color: black;
+.title {
+    background-color: #70C663;
+    /* padding: 10px 100px 10px 100px; */
+    color: white;
+}
+
+#topTitle {
+    text-align: center;
+}
+
+.table {
+    max-width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th {
+  border-top: none;
+}
+
+#addSkillBox {
+    border-color: #70C663;
+    padding: 2px;
+    width: 26%;
+}
+
+#addSkillBtn {
+    background-color: white;
+    color: #70C663;
+    border-color: #70C663;
+    padding: 2px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
 }
